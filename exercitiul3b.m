@@ -1,5 +1,5 @@
-figure(7)
-hold on             % reşine graficul curent ºi adaugã în aceeaºi fereastrã graficã urmãtoarele reprezentãri grafice
+figure(8)
+hold on             % reÅ£ine graficul curent ÅŸi adaugÄƒ Ã®n aceeaÅŸi fereastrÄƒ graficÄƒ urmÄƒtoarele reprezentÄƒri grafice
 title('Semnal dreptunghiular multinivel aleator');
 xlabel('Timp [s]');
 ylabel('A [V]');
