@@ -1,8 +1,8 @@
 figure(7)
-hold on             % reşine graficul curent ºi adaugã în aceeaºi fereastrã graficã urmãtoarele reprezentãri grafice
+hold on             % reÅ£ine graficul curent ÅŸi adaugÄƒ Ã®n aceeaÅŸi fereastrÄƒ graficÄƒ urmÄƒtoarele reprezentÄƒri grafice
 title('Semnal dreptunghiular multinivel aleator');
-xlabel('Timp [s]');
-ylabel('A [V]');
+xlabel('Timp');
+ylabel('Amplitudine');
 nivel = [-1 1 ];
 t= 0:0.002:20;      %rezolutia temporara de 2 ms. Daca dorim sa avem rezolutia temporara de 20 ms, respectiv 200 ms vom modifica t-ul astfel: t= 0:0.02:20, respectiv t= 0:0.2:20 
 for n=0:0.25:40
